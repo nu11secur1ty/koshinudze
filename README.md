@@ -11,7 +11,7 @@ https://github.com/nu11secur1ty/koshinudze.git
 ```bash
 cd program
 ```
-- -run the program
+- - run the program
 
 ```bash
 perl koshinudze.pl
