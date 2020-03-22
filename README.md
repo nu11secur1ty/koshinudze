@@ -116,7 +116,7 @@ PORT     STATE SERVICE       VERSION
 | http-robots.txt: 1 disallowed entry 
 |_/wp-admin/
 |_http-server-header: cloudflare
-|_http-title: Did not follow redirect to https://ehu.bg/
+|_http-title: Did not follow redirect to https://xxx.xx/
 443/tcp  open  ssl/https     cloudflare
 | fingerprint-strings: 
 |   FourOhFourRequest: 
@@ -208,7 +208,7 @@ PORT     STATE SERVICE       VERSION
 |_http-title: E.H.U. &#8211; Ethical Hacking University of Bulgaria
 |_http-trane-info: Problem with XML parsing of /evox/about
 | ssl-cert: Subject: commonName=sni.cloudflaressl.com/organizationName=CloudFlare, Inc./stateOrProvinceName=CA/countryName=US
-| Subject Alternative Name: DNS:*.ehu.bg, DNS:sni.cloudflaressl.com, DNS:ehu.bg
+| Subject Alternative Name: DNS:*.xxx.xx, DNS:sni.cloudflaressl.com, DNS:xxx.xx
 | Not valid before: 2019-05-07T00:00:00
 |_Not valid after:  2020-05-07T12:00:00
 8080/tcp open  http-proxy    cloudflare
@@ -355,7 +355,7 @@ PORT     STATE SERVICE       VERSION
 |_http-server-header: cloudflare
 |_http-title: 400 The plain HTTP request was sent to HTTPS port
 | ssl-cert: Subject: commonName=sni.cloudflaressl.com/organizationName=CloudFlare, Inc./stateOrProvinceName=CA/countryName=US
-| Subject Alternative Name: DNS:*.ehu.bg, DNS:sni.cloudflaressl.com, DNS:ehu.bg
+| Subject Alternative Name: DNS:*.xxx.xx, DNS:sni.cloudflaressl.com, DNS:xxx.xx
 | Not valid before: 2019-05-07T00:00:00
 |_Not valid after:  2020-05-07T12:00:00
 4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
@@ -524,9 +524,9 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 128.75 seconds
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-22 10:09 EDT
-Nmap scan report for ehu.bg (104.31.94.222)
+Nmap scan report for xxx.xx (104.31.94.222)
 Host is up (0.042s latency).
-Other addresses for ehu.bg (not scanned): 2606:4700:3037::681f:5ede
+Other addresses for xxx.xx (not scanned): 2606:4700:3037::681f:5ede
 
 PORT   STATE    SERVICE
 22/tcp filtered ssh
@@ -534,9 +534,9 @@ PORT   STATE    SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-22 10:09 EDT
-Nmap scan report for ehu.bg (104.31.94.222)
+Nmap scan report for xxx.xx (104.31.94.222)
 Host is up (0.044s latency).
-Other addresses for ehu.bg (not scanned): 2606:4700:3037::681f:5ede
+Other addresses for xxx.xx (not scanned): 2606:4700:3037::681f:5ede
 Not shown: 99 filtered ports
 PORT   STATE SERVICE
 80/tcp open  http
@@ -544,13 +544,13 @@ PORT   STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 2.27 seconds
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-22 10:10 EDT
-Nmap scan report for ehu.bg (104.31.94.222)
+Nmap scan report for xxx.xx (104.31.94.222)
 Host is up (0.044s latency).
-Other addresses for ehu.bg (not scanned): 2606:4700:3037::681f:5ede
+Other addresses for xxx.xx (not scanned): 2606:4700:3037::681f:5ede
 Not shown: 996 filtered ports
 PORT     STATE SERVICE
 80/tcp   open  http
-|_http-title: Did not follow redirect to https://ehu.bg/
+|_http-title: Did not follow redirect to https://xxx.xx/
 443/tcp  open  https
 |_http-title: E.H.U. &#8211; Ethical Hacking University of Bulgaria
 8080/tcp open  http-proxy
@@ -560,9 +560,9 @@ PORT     STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 12.98 seconds
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-22 10:10 EDT
-Nmap scan report for ehu.bg (104.31.94.222)
+Nmap scan report for xxx.xx (104.31.94.222)
 Host is up (0.047s latency).
-Other addresses for ehu.bg (not scanned): 2606:4700:3037::681f:5ede
+Other addresses for xxx.xx (not scanned): 2606:4700:3037::681f:5ede
 
 PORT    STATE         SERVICE VERSION
 19/udp  open|filtered chargen
@@ -587,9 +587,9 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 115.69 seconds
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-22 10:12 EDT
-Nmap scan report for ehu.bg (104.31.95.222)
+Nmap scan report for xxx.xx (104.31.95.222)
 Host is up (0.045s latency).
-Other addresses for ehu.bg (not scanned): 104.31.94.222 2606:4700:3037::681f:5ede
+Other addresses for xxx.xx (not scanned): 104.31.94.222 2606:4700:3037::681f:5ede
 Not shown: 996 filtered ports
 PORT     STATE SERVICE       VERSION
 80/tcp   open  http          cloudflare
