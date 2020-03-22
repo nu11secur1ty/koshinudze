@@ -3,6 +3,11 @@ koshinudze is a Nmap vunerability ports and services scanner
 
 - - - Usage
 
+- - get the program
+```bash
+https://github.com/nu11secur1ty/koshinudze.git
+```
+- - navigate to the directory
 ```bash
 cd program
 ```
@@ -11,4 +16,4 @@ cd program
 ```bash
 perl koshinudze.pl
 ```
-- - follo the instruction
+- - follow the instruction
