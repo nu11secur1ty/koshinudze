@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use diagnostics;
 use Term::ANSIColor;
+use 5.010;
 
 print "Give the target host or IP\n";
 my $target_ = <STDIN>;
