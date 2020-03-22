@@ -21,6 +21,7 @@ print "Your result\n";
 print "Detect OS and Services and Scan a single Port\n";
 print color('blue');
 	print "$koshinudze_[0][0]\n";
+		print "---------------------------------------------\n";
 	print "$koshinudze_[0][1]\n";
 	print color('reset');
 
@@ -28,6 +29,7 @@ print color('blue');
 print "Scan a range of ports and Gather page titles from HTTP services\n";
 print color('green');
 	print "$koshinudze_[1][0]\n";
+		print "----------------------------------------------\n";
 	print "$koshinudze_[1][1]\n";
 	print color('reset');
 
