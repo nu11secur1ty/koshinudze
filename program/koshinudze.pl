@@ -4,5 +4,5 @@
 use strict;
 use warnings;
 use diagnostics;
-system("perl modules/scan.pl > output_koshinudze.log");
+system("perl modules/scan.pl");
 exit 0;
