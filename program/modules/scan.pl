@@ -39,4 +39,4 @@ print color('red');
 	print "$koshinudze_[3][0]\n";
 	print color('reset');
 
-	print "finish the scaning\n";
+	print "finish the scanning\n";
