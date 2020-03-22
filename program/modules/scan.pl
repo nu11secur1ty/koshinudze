@@ -8,7 +8,6 @@ use Term::ANSIColor;
 
 print "Give the target host or IP\n";
 my $target_ = <STDIN>;
-#my $target_ = $ARGV
 
 our @koshinudze_ = (
 	[ my $m0de1 = `nmap -A $target_`, my $m0de2 = `nmap -p 22 $target_` ],
@@ -49,7 +48,7 @@ print color('red');
 # Save
 my $filename = 'koshinudze.log';
 open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
-print $fh "$m0de1\n$m0de2\n$m0de3\n$m0de4\n$m0de5\n$m0de6";
-close $fh;
-print "done\n";
+	print $fh "$m0de1\n$m0de2\n$m0de3\n$m0de4\n$m0de5\n$m0de6";
+	close $fh;
+		print "done\n";
 	print "finish the scanning\n";
