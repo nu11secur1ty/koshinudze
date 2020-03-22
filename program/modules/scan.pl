@@ -47,7 +47,7 @@ print color('red');
 	print "$koshinudze_[3][0]\n";
 	print color('reset');
 # Save
-my $filename = 'report.txt';
+my $filename = 'koshinudze.log';
 open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
 print $fh "$m0de1 $m0de2 $m0de3 $m0de4 $m0de5 $m0de6";
 close $fh;
