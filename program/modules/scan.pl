@@ -6,7 +6,7 @@ use diagnostics;
 use Term::ANSIColor;
 
 print "Give the target host or IP\n";
-my $target_ = <STDIN> $ARGV;
+my $target_ = <STDIN>;
 #my $target_ = $ARGV
 
 our @koshinudze_ = (
