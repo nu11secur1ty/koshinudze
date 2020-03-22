@@ -45,5 +45,11 @@ print "Scan with a set of scripts\n";
 print color('red');
 	print "$koshinudze_[3][0]\n";
 	print color('reset');
-
+# Save
+print "$m0de1";
+print "$m0de2";
+print "$m0de3";
+print "$m0de4";
+print "$m0de5";
+print "$m0de6";
 	print "finish the scanning\n";
