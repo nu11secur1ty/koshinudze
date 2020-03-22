@@ -5,7 +5,7 @@ use warnings;
 use diagnostics;
 use Term::ANSIColor;
 
-print "Give target host or IP\n";
+print "Give the target host or IP\n";
 my $target_ = <STDIN>;
 
 our @koshinudze_ = (
@@ -16,24 +16,25 @@ our @koshinudze_ = (
 );
 
 print "Your result\n";
-# First line of array
+
+# The first line of the array
 print color('blue');
 	print "$koshinudze_[0][0]\n";
 	print "$koshinudze_[0][1]\n";
 	print color('reset');
 
-# Second line from array;
+# The Second line of the array
 print color('green');
 	print "$koshinudze_[1][0]\n";
 	print "$koshinudze_[1][1]\n";
 	print color('reset');
 
-# Third line of array
+# The third line of the array
 print color('yellow');
 	print "$koshinudze_[2][0]\n";
 	print color('reset');
 
-# Forth line of array
+# The fourth line of the array
 print color('red');
 	print "$koshinudze_[3][0]\n";
 	print color('reset');
