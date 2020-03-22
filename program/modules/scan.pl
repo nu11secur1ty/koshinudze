@@ -49,7 +49,7 @@ print color('red');
 # Save
 my $filename = 'koshinudze.log';
 open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
-print $fh "$m0de1 $m0de2 $m0de3 $m0de4 $m0de5 $m0de6";
+print $fh "$m0de1\n$m0de2\n$m0de3\n$m0de4\n$m0de5\n$m0de6";
 close $fh;
-print 'done';
+print "done\n";
 	print "finish the scanning\n";
