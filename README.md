@@ -1,5 +1,5 @@
 # koshinudze
-koshinudze is a Nmap vunerability ports and services scanner
+koshinudze is a Nmap vulnerability ports and services scanner
 
 - - - Usage
 
