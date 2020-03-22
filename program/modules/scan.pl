@@ -6,8 +6,8 @@ use diagnostics;
 use Term::ANSIColor;
 
 print "Give the target host or IP\n";
-#my $target_ = <STDIN>;
-my $target_ = $ARGV
+my $target_ = <STDIN> $ARGV;
+#my $target_ = $ARGV
 
 our @koshinudze_ = (
 	[ my $m0de1 = `nmap -A $target_`, my $m0de2 = `nmap -p 22 $target_` ],
