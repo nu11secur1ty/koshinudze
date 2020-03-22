@@ -18,6 +18,8 @@ cd program
 ```bash
 perl koshinudze.pl
 ```
+- - follow the instructions
+
 ![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/2.png)
 
-- - follow the instruction
+
