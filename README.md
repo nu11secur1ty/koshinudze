@@ -8,14 +8,16 @@ koshinudze is a Nmap vulnerability ports and services scanner
 https://github.com/nu11secur1ty/koshinudze.git
 ```
 - - navigate to the directory
-![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/1.png)
-
 ```bash
 cd program
 ```
+![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/1.png)
+
+
 - - run the program
-![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/2.png)
 ```bash
 perl koshinudze.pl
 ```
+![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/2.png)
+
 - - follow the instruction
