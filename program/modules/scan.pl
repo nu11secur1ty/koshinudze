@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use diagnostics;
 use Term::ANSIColor;
-use 5.010;
+# use 5.010;
 
 print "Give the target host or IP\n";
 my $target_ = <STDIN>;
@@ -49,13 +49,7 @@ print color('red');
 # Save
 my $filename = 'report.txt';
 open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
-say $fh "$m0de1 $m0de2 $m0de3 $m0de4 $m0de5 $m0de6";
+print $fh "$m0de1 $m0de2 $m0de3 $m0de4 $m0de5 $m0de6";
 close $fh;
-say 'done';
-#print "$m0de1";
-#print "$m0de2";
-#print "$m0de3";
-#print "$m0de4";
-#print "$m0de5";
-#print "$m0de6";
+print 'done';
 	print "finish the scanning\n";
