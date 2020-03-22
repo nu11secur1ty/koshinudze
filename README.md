@@ -11,7 +11,7 @@ git clone https://github.com/nu11secur1ty/koshinudze.git
 ```bash
 cd program
 ```
-![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/1.png)
+[![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/1.png)](https://www.youtube.com/watch?v=kMUG6LXErHs&feature=emb_title)
 
 
 - - run the program
