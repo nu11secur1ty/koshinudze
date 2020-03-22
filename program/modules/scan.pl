@@ -18,23 +18,27 @@ our @koshinudze_ = (
 print "Your result\n";
 
 # The first line of the array
+print "Detect OS and Services and Scan a single Port\n";
 print color('blue');
 	print "$koshinudze_[0][0]\n";
 	print "$koshinudze_[0][1]\n";
 	print color('reset');
 
 # The Second line of the array
+print "Scan a range of ports and Gather page titles from HTTP services\n";
 print color('green');
 	print "$koshinudze_[1][0]\n";
 	print "$koshinudze_[1][1]\n";
 	print color('reset');
 
 # The third line of the array
+print "Scan for UDP DDOS reflectors\n";
 print color('yellow');
 	print "$koshinudze_[2][0]\n";
 	print color('reset');
 
 # The fourth line of the array
+print "Scan with a set of scripts\n";
 print color('red');
 	print "$koshinudze_[3][0]\n";
 	print color('reset');
