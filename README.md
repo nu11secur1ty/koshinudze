@@ -4,6 +4,8 @@
 koshinudze is a nmap vulnerability ports, services scanner and attacker software.
 
 ***NOTE:*** Only for Penetration and testing, of services which are vulnerability, and solving of their problems.
+      
+      ***WARNING:***
 
 **This software is NOT for malicious purpose, and evil people**
 
