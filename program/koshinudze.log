@@ -1,0 +1,543 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-24 05:14 EDT
+Nmap scan report for facebook.com (185.60.216.35)
+Host is up (0.039s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f12d:83:face:b00c:0:25de
+rDNS record for 185.60.216.35: edge-star-mini-shv-01-frx5.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Vary: Accept-Encoding
+|     Location: http://www.facebook.com/
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: /40eD8BGEOijYpDfqVAP1TnM09NeT+AxU70Tkm6VVjOL8xzXXyCgXp+2E3uJeYfcjY01heBh/JVOQXvWuDGusg==
+|     Date: Tue, 24 Mar 2020 09:14:50 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Vary: Accept-Encoding
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: J03sxOXjNZOvQu9/mp8QTwFM804TMn4DaeXyhQgJpwtsDRhkYIrQeciU9xqeKrq5CTxkrpAT3oVXTiQ4ZMac5Q==
+|     Date: Tue, 24 Mar 2020 09:14:50 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 1449
+|     <!DOCTYPE html><html lang="en" id="facebook"><head><title>Error</title><meta charset="utf-8" /><meta http-equiv="Cache-Control" content="no-cache" /><meta name="robots" content="noindex,nofollow" /><style>html, body { color: #333; font-family: 'Lucida Grande', 'Tahoma', 'Verdana', 'Arial', sans-serif; margin: 0; padding: 0; text-align: center;}
+|     #header { height: 30px; padding-bottom: 10px; padding-top: 10px; text-align: center;}
+|     #icon { width: 30px;}
+|     .core { margin: auto; padding: 1em 0; text-align: left; width: 904px;}
+|     font-size: 18px;}
+|     font-size: 13px;}
+|     .footer { border-top: 1p
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Date: Tue, 24 Mar 2020 09:14:50 GMT
+|     Connection: close
+|     Content-Length: 2959
+|     <!DOCTYPE html>
+|     <html lang="en" id="facebook">
+|     <head>
+|     <title>Facebook | Error</title>
+|     <meta charset="utf-8">
+|     <meta http-equiv="cache-control" content="no-cache">
+|     <meta http-equiv="cache-control" content="no-store">
+|     <meta http-equiv="cache-control" content="max-age=0">
+|     <meta http-equiv="expires" content="-1">
+|     <meta http-equiv="pragma" content="no-cache">
+|     <meta name="robots" content="noindex,nofollow">
+|     <style>
+|     html, body {
+|     color: #141823;
+|     background-color: #e9eaed;
+|     font-family: Helvetica, Lucida Grande, Arial,
+|     Tahoma, Verdana, sans-serif;
+|     margin: 0;
+|     padding: 0;
+|     text-align: center;
+|     #header {
+|_    height: 30px;
+| http-robots.txt: 22 disallowed entries (15 shown)
+| /ajax/ /album.php /checkpoint/ /contact_importer/ 
+| /dialog/ /fbml/ajax/dialog/ /feeds/ /file_download.php 
+| /hashtag/ /l.php /live/ /moments_app/ /p.php /photo.php 
+|_/photos.php
+|_http-title: Did not follow redirect to https://facebook.com/
+443/tcp  open   ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Vary: Accept-Encoding
+|     Location: https://www.facebook.com/nice%20ports%2C/Tri%6Eity.txt.bak
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: 1tYyHJBMd2NgeTyCmAx/tGdCeTFql8JCKjy/lkhNwwcTNm99ewo9njG4L6cor68Lh6TMC7FeYaYwJ41vS9FujA==
+|     Date: Tue, 24 Mar 2020 09:14:57 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Vary: Accept-Encoding
+|     Location: https://www.facebook.com/
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: m2ZNsDyxYoI1numvmJqLVDpwQRRmtoS2jKsnl9XalD1I2hf0B1GNleEq1zgHy1Q3g7t/fst9e+Cj1r2qa9X1DQ==
+|     Date: Tue, 24 Mar 2020 09:14:56 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 302 Found
+|     Vary: Accept-Encoding
+|     Location: https://185.60.216.35/unsupportedbrowser
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: soOCRsohPFT7yS4ySjfTyMO7GaJ3xR6mOvAHUVtA4FuDTELk2ywvmnS4g+4EIMEzfdMKPwTv6ZJgpB3dUQBpnw==
+|     Date: Tue, 24 Mar 2020 09:14:56 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   tor-versions: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Date: Tue, 24 Mar 2020 09:14:57 GMT
+|     Connection: close
+|     Content-Length: 2959
+|     <!DOCTYPE html>
+|     <html lang="en" id="facebook">
+|     <head>
+|     <title>Facebook | Error</title>
+|     <meta charset="utf-8">
+|     <meta http-equiv="cache-control" content="no-cache">
+|     <meta http-equiv="cache-control" content="no-store">
+|     <meta http-equiv="cache-control" content="max-age=0">
+|     <meta http-equiv="expires" content="-1">
+|     <meta http-equiv="pragma" content="no-cache">
+|     <meta name="robots" content="noindex,nofollow">
+|     <style>
+|     html, body {
+|     color: #141823;
+|     background-color: #e9eaed;
+|     font-family: Helvetica, Lucida Grande, Arial,
+|     Tahoma, Verdana, sans-serif;
+|     margin: 0;
+|     padding: 0;
+|     text-align: center;
+|     #header {
+|_    height: 30px;
+| http-robots.txt: 22 disallowed entries (15 shown)
+| /ajax/ /album.php /checkpoint/ /contact_importer/ 
+| /dialog/ /fbml/ajax/dialog/ /feeds/ /file_download.php 
+| /hashtag/ /l.php /live/ /moments_app/ /p.php /photo.php 
+|_/photos.php
+|_http-title: Did not follow redirect to https://www.facebook.com/
+| ssl-cert: Subject: commonName=*.facebook.com/organizationName=Facebook, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:*.facebook.com, DNS:*.facebook.net, DNS:*.fb.com, DNS:*.fbcdn.net, DNS:*.fbsbx.com, DNS:*.messenger.com, DNS:facebook.com, DNS:fb.com, DNS:messenger.com, DNS:*.m.facebook.com, DNS:*.xx.fbcdn.net, DNS:*.xy.fbcdn.net, DNS:*.xz.fbcdn.net
+| Not valid before: 2020-03-01T00:00:00
+|_Not valid after:  2020-05-30T12:00:00
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=3/24%Time=5E79CF8A%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,158,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x20Accept
+SF:-Encoding\r\nLocation:\x20http://www\.facebook\.com/\r\nContent-Type:\x
+SF:20text/html;\x20charset=\"utf-8\"\r\nX-FB-Debug:\x20/40eD8BGEOijYpDfqVA
+SF:P1TnM09NeT\+AxU70Tkm6VVjOL8xzXXyCgXp\+2E3uJeYfcjY01heBh/JVOQXvWuDGusg==
+SF:\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:14:50\x20GMT\r\nAlt-Svc:\x
+SF:20h3-27=\":443\";\x20ma=3600\r\nConnection:\x20close\r\nContent-Length:
+SF:\x200\r\n\r\n")%r(HTTPOptions,6DA,"HTTP/1\.1\x20400\x20Bad\x20Request\r
+SF:\nVary:\x20Accept-Encoding\r\nContent-Type:\x20text/html;\x20charset=\"
+SF:utf-8\"\r\nX-FB-Debug:\x20J03sxOXjNZOvQu9/mp8QTwFM804TMn4DaeXyhQgJpwtsD
+SF:RhkYIrQeciU9xqeKrq5CTxkrpAT3oVXTiQ4ZMac5Q==\r\nDate:\x20Tue,\x2024\x20M
+SF:ar\x202020\x2009:14:50\x20GMT\r\nAlt-Svc:\x20h3-27=\":443\";\x20ma=3600
+SF:\r\nConnection:\x20close\r\nContent-Length:\x201449\r\n\r\n<!DOCTYPE\x2
+SF:0html><html\x20lang=\"en\"\x20id=\"facebook\"><head><title>Error</title
+SF:><meta\x20charset=\"utf-8\"\x20/><meta\x20http-equiv=\"Cache-Control\"\
+SF:x20content=\"no-cache\"\x20/><meta\x20name=\"robots\"\x20content=\"noin
+SF:dex,nofollow\"\x20/><style>html,\x20body\x20{\x20color:\x20#333;\x20fon
+SF:t-family:\x20'Lucida\x20Grande',\x20'Tahoma',\x20'Verdana',\x20'Arial',
+SF:\x20sans-serif;\x20margin:\x200;\x20padding:\x200;\x20text-align:\x20ce
+SF:nter;}\n#header\x20{\x20height:\x2030px;\x20padding-bottom:\x2010px;\x2
+SF:0padding-top:\x2010px;\x20text-align:\x20center;}\n#icon\x20{\x20width:
+SF:\x2030px;}\n\.core\x20{\x20margin:\x20auto;\x20padding:\x201em\x200;\x2
+SF:0text-align:\x20left;\x20width:\x20904px;}\nh1\x20{\x20font-size:\x2018
+SF:px;}\np\x20{\x20font-size:\x2013px;}\n\.footer\x20{\x20border-top:\x201
+SF:p")%r(RTSPRequest,C21,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Ty
+SF:pe:\x20text/html;\x20charset=utf-8\r\nDate:\x20Tue,\x2024\x20Mar\x20202
+SF:0\x2009:14:50\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x202959
+SF:\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"facebook\">\n\
+SF:x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20Error</title>\n
+SF:\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20h
+SF:ttp-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<
+SF:meta\x20http-equiv=\"cache-control\"\x20content=\"no-store\">\n\x20\x20
+SF:\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"max-age=0\">
+SF:\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20content=\"-1\">\n\
+SF:x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">\
+SF:n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noindex,nofollow
+SF:\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20html,\x20body\x20
+SF:{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x20Arial,\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n\x20\x20\x20\x20\
+SF:x20\x20}\n\n\x20\x20\x20\x20\x20\x20#header\x20{\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20height:\x2030px;\n\x20\x20\x20\x20\x20\x20\x20\x20");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=3/24%Time=5E79CF90%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,159,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x2
+SF:0Accept-Encoding\r\nLocation:\x20https://www\.facebook\.com/\r\nContent
+SF:-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-FB-Debug:\x20m2ZNsDyxYoI
+SF:1numvmJqLVDpwQRRmtoS2jKsnl9XalD1I2hf0B1GNleEq1zgHy1Q3g7t/fst9e\+Cj1r2qa
+SF:9X1DQ==\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:14:56\x20GMT\r\nAlt
+SF:-Svc:\x20h3-27=\":443\";\x20ma=3600\r\nConnection:\x20close\r\nContent-
+SF:Length:\x200\r\n\r\n")%r(HTTPOptions,15C,"HTTP/1\.1\x20302\x20Found\r\n
+SF:Vary:\x20Accept-Encoding\r\nLocation:\x20https://185\.60\.216\.35/unsup
+SF:portedbrowser\r\nContent-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-
+SF:FB-Debug:\x20soOCRsohPFT7yS4ySjfTyMO7GaJ3xR6mOvAHUVtA4FuDTELk2ywvmnS4g\
+SF:+4EIMEzfdMKPwTv6ZJgpB3dUQBpnw==\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x
+SF:2009:14:56\x20GMT\r\nAlt-Svc:\x20h3-27=\":443\";\x20ma=3600\r\nConnecti
+SF:on:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,17A,
+SF:"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x20Accept-Encoding\r
+SF:\nLocation:\x20https://www\.facebook\.com/nice%20ports%2C/Tri%6Eity\.tx
+SF:t\.bak\r\nContent-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-FB-Debu
+SF:g:\x201tYyHJBMd2NgeTyCmAx/tGdCeTFql8JCKjy/lkhNwwcTNm99ewo9njG4L6cor68Lh
+SF:6TMC7FeYaYwJ41vS9FujA==\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:14:
+SF:57\x20GMT\r\nAlt-Svc:\x20h3-27=\":443\";\x20ma=3600\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\n\r\n")%r(tor-versions,C21,"HTTP/1\.1\x2
+SF:0400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x20charset=utf-8\
+SF:r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:14:57\x20GMT\r\nConnection:
+SF:\x20close\r\nContent-Length:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x
+SF:20lang=\"en\"\x20id=\"facebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<tit
+SF:le>Facebook\x20\|\x20Error</title>\n\x20\x20\x20\x20<meta\x20charset=\"
+SF:utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20cont
+SF:ent=\"no-cache\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\
+SF:"\x20content=\"no-store\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache
+SF:-control\"\x20content=\"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-equ
+SF:iv=\"expires\"\x20content=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=
+SF:\"pragma\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\"ro
+SF:bots\"\x20content=\"noindex,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\
+SF:x20\x20\x20\x20\x20html,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:color:\x20#141823;\n\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x
+SF:20#e9eaed;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Helvetica,\
+SF:x20Lucida\x20Grande,\x20Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20san
+SF:s-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-
+SF:align:\x20center;\n\x20\x20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x2
+SF:0#header\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20height:\x2030px;\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20");
+Device type: general purpose
+Running (JUST GUESSING): OpenBSD 4.X (87%)
+OS CPE: cpe:/o:openbsd:openbsd:4.3
+Aggressive OS guesses: OpenBSD 4.3 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+TRACEROUTE (using port 5222/tcp)
+HOP RTT      ADDRESS
+1   8.21 ms  192.168.1.1
+2   ... 4
+5   53.03 ms ae38.pr02.fra4.tfbnw.net (157.240.64.128)
+6   32.98 ms po161.asw02.fra2.tfbnw.net (157.240.47.194)
+7   29.01 ms po225.psw03.fra5.tfbnw.net (129.134.38.107)
+8   29.00 ms 173.252.67.95
+9   32.99 ms edge-star-mini-shv-01-frx5.facebook.com (185.60.216.35)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 39.40 seconds
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-24 05:15 EDT
+Nmap scan report for facebook.com (185.60.216.35)
+Host is up (0.028s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f12d:83:face:b00c:0:25de
+rDNS record for 185.60.216.35: edge-star-mini-shv-01-frx5.facebook.com
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-24 05:15 EDT
+Nmap scan report for facebook.com (185.60.216.35)
+Host is up (0.029s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f12d:83:face:b00c:0:25de
+rDNS record for 185.60.216.35: edge-star-mini-shv-01-frx5.facebook.com
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.03 seconds
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-24 05:15 EDT
+Nmap scan report for facebook.com (185.60.216.35)
+Host is up (0.034s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f12d:83:face:b00c:0:25de
+rDNS record for 185.60.216.35: edge-star-mini-shv-01-frx5.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+|_http-title: Did not follow redirect to https://facebook.com/
+443/tcp  open   https
+|_http-title: Did not follow redirect to https://www.facebook.com/
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 4.86 seconds
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-24 05:15 EDT
+Nmap scan report for facebook.com (185.60.216.35)
+Host is up (0.11s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f12d:83:face:b00c:0:25de
+
+PORT    STATE         SERVICE VERSION
+19/udp  open|filtered chargen
+53/udp  open|filtered domain
+123/udp open|filtered ntp
+161/udp open|filtered snmp
+Too many fingerprints match this host to give specific OS details
+Network Distance: 9 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   8.62 ms   192.168.1.1
+2   12.29 ms  87.243.116.2
+3   27.61 ms  212.39.69.111
+4   ...
+5   172.44 ms 157.240.64.128
+6   32.35 ms  157.240.47.194
+7   35.56 ms  129.134.38.93
+8   35.57 ms  173.252.67.99
+9   35.57 ms  185.60.216.35
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 120.31 seconds
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-24 05:17 EDT
+Nmap scan report for facebook.com (185.60.216.35)
+Host is up (0.036s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f12d:83:face:b00c:0:25de
+rDNS record for 185.60.216.35: edge-star-mini-shv-01-frx5.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Vary: Accept-Encoding
+|     Location: http://www.facebook.com/
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: 07ZTbaV2/ErLqUIJJFDBQJ6GbtLyUceFwQSiF1D2CKD+8iN43e4Q1EOox2Vowuyf0/EFBkTKwaWR3DaT7c4s8Q==
+|     Date: Tue, 24 Mar 2020 09:17:36 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Vary: Accept-Encoding
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: PVtmjcZOJHniWA0Ng3gOVGtHIJ9apfD+Dw/SMNuTS7EZHlwg7kkd6+kh32/PMCsWnVBkPVybBQEf/G6HY7sPXw==
+|     Date: Tue, 24 Mar 2020 09:17:36 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 1449
+|     <!DOCTYPE html><html lang="en" id="facebook"><head><title>Error</title><meta charset="utf-8" /><meta http-equiv="Cache-Control" content="no-cache" /><meta name="robots" content="noindex,nofollow" /><style>html, body { color: #333; font-family: 'Lucida Grande', 'Tahoma', 'Verdana', 'Arial', sans-serif; margin: 0; padding: 0; text-align: center;}
+|     #header { height: 30px; padding-bottom: 10px; padding-top: 10px; text-align: center;}
+|     #icon { width: 30px;}
+|     .core { margin: auto; padding: 1em 0; text-align: left; width: 904px;}
+|     font-size: 18px;}
+|     font-size: 13px;}
+|     .footer { border-top: 1p
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Date: Tue, 24 Mar 2020 09:17:36 GMT
+|     Connection: close
+|     Content-Length: 2959
+|     <!DOCTYPE html>
+|     <html lang="en" id="facebook">
+|     <head>
+|     <title>Facebook | Error</title>
+|     <meta charset="utf-8">
+|     <meta http-equiv="cache-control" content="no-cache">
+|     <meta http-equiv="cache-control" content="no-store">
+|     <meta http-equiv="cache-control" content="max-age=0">
+|     <meta http-equiv="expires" content="-1">
+|     <meta http-equiv="pragma" content="no-cache">
+|     <meta name="robots" content="noindex,nofollow">
+|     <style>
+|     html, body {
+|     color: #141823;
+|     background-color: #e9eaed;
+|     font-family: Helvetica, Lucida Grande, Arial,
+|     Tahoma, Verdana, sans-serif;
+|     margin: 0;
+|     padding: 0;
+|     text-align: center;
+|     #header {
+|_    height: 30px;
+443/tcp  open   ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Vary: Accept-Encoding
+|     Location: https://www.facebook.com/nice%20ports%2C/Tri%6Eity.txt.bak
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: A0F/rd7Gzrvlagk1iEnzPmO9kSOfd0+aTEnIA5mG8RnU+ae4M4w2qyNp18H2DCaG/luaJIUsMTOlrSDZ/yrd2g==
+|     Date: Tue, 24 Mar 2020 09:17:42 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Vary: Accept-Encoding
+|     Location: https://www.facebook.com/
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: /ARyKNBzgHlttn1BrHO8oX0hD9jycv/81x7O2XdKT2OYKUB4nhE1Z9e17351+jSTwlgGTMK5NEwYCkYo0ytIWg==
+|     Date: Tue, 24 Mar 2020 09:17:42 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 302 Found
+|     Vary: Accept-Encoding
+|     Location: https://185.60.216.35/unsupportedbrowser
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: iIpEABTELUoaJ8v++ZPZApRccVBO2O1fl0O9aOe91tsR/sxTYEsyjYzepKZQCk5HC6zc8BytiStzOZGL7LvpwQ==
+|     Date: Tue, 24 Mar 2020 09:17:42 GMT
+|     Alt-Svc: h3-27=":443"; ma=3600
+|     Connection: close
+|     Content-Length: 0
+|   tor-versions: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Date: Tue, 24 Mar 2020 09:17:42 GMT
+|     Connection: close
+|     Content-Length: 2959
+|     <!DOCTYPE html>
+|     <html lang="en" id="facebook">
+|     <head>
+|     <title>Facebook | Error</title>
+|     <meta charset="utf-8">
+|     <meta http-equiv="cache-control" content="no-cache">
+|     <meta http-equiv="cache-control" content="no-store">
+|     <meta http-equiv="cache-control" content="max-age=0">
+|     <meta http-equiv="expires" content="-1">
+|     <meta http-equiv="pragma" content="no-cache">
+|     <meta name="robots" content="noindex,nofollow">
+|     <style>
+|     html, body {
+|     color: #141823;
+|     background-color: #e9eaed;
+|     font-family: Helvetica, Lucida Grande, Arial,
+|     Tahoma, Verdana, sans-serif;
+|     margin: 0;
+|     padding: 0;
+|     text-align: center;
+|     #header {
+|_    height: 30px;
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=3/24%Time=5E79D030%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,158,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x20Accept
+SF:-Encoding\r\nLocation:\x20http://www\.facebook\.com/\r\nContent-Type:\x
+SF:20text/html;\x20charset=\"utf-8\"\r\nX-FB-Debug:\x2007ZTbaV2/ErLqUIJJFD
+SF:BQJ6GbtLyUceFwQSiF1D2CKD\+8iN43e4Q1EOox2Vowuyf0/EFBkTKwaWR3DaT7c4s8Q==\
+SF:r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:17:36\x20GMT\r\nAlt-Svc:\x2
+SF:0h3-27=\":443\";\x20ma=3600\r\nConnection:\x20close\r\nContent-Length:\
+SF:x200\r\n\r\n")%r(HTTPOptions,6DA,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nVary:\x20Accept-Encoding\r\nContent-Type:\x20text/html;\x20charset=\"u
+SF:tf-8\"\r\nX-FB-Debug:\x20PVtmjcZOJHniWA0Ng3gOVGtHIJ9apfD\+Dw/SMNuTS7EZH
+SF:lwg7kkd6\+kh32/PMCsWnVBkPVybBQEf/G6HY7sPXw==\r\nDate:\x20Tue,\x2024\x20
+SF:Mar\x202020\x2009:17:36\x20GMT\r\nAlt-Svc:\x20h3-27=\":443\";\x20ma=360
+SF:0\r\nConnection:\x20close\r\nContent-Length:\x201449\r\n\r\n<!DOCTYPE\x
+SF:20html><html\x20lang=\"en\"\x20id=\"facebook\"><head><title>Error</titl
+SF:e><meta\x20charset=\"utf-8\"\x20/><meta\x20http-equiv=\"Cache-Control\"
+SF:\x20content=\"no-cache\"\x20/><meta\x20name=\"robots\"\x20content=\"noi
+SF:ndex,nofollow\"\x20/><style>html,\x20body\x20{\x20color:\x20#333;\x20fo
+SF:nt-family:\x20'Lucida\x20Grande',\x20'Tahoma',\x20'Verdana',\x20'Arial'
+SF:,\x20sans-serif;\x20margin:\x200;\x20padding:\x200;\x20text-align:\x20c
+SF:enter;}\n#header\x20{\x20height:\x2030px;\x20padding-bottom:\x2010px;\x
+SF:20padding-top:\x2010px;\x20text-align:\x20center;}\n#icon\x20{\x20width
+SF::\x2030px;}\n\.core\x20{\x20margin:\x20auto;\x20padding:\x201em\x200;\x
+SF:20text-align:\x20left;\x20width:\x20904px;}\nh1\x20{\x20font-size:\x201
+SF:8px;}\np\x20{\x20font-size:\x2013px;}\n\.footer\x20{\x20border-top:\x20
+SF:1p")%r(RTSPRequest,C21,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-T
+SF:ype:\x20text/html;\x20charset=utf-8\r\nDate:\x20Tue,\x2024\x20Mar\x2020
+SF:20\x2009:17:36\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x20295
+SF:9\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"facebook\">\n
+SF:\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20Error</title>\
+SF:n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20
+SF:http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x20\x20\x20\x20
+SF:<meta\x20http-equiv=\"cache-control\"\x20content=\"no-store\">\n\x20\x2
+SF:0\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"max-age=0\"
+SF:>\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20content=\"-1\">\n
+SF:\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">
+SF:\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noindex,nofollo
+SF:w\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20html,\x20body\x2
+SF:0{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x20Arial,\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\
+SF:x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n\x20\x20\x20\x20
+SF:\x20\x20}\n\n\x20\x20\x20\x20\x20\x20#header\x20{\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20height:\x2030px;\n\x20\x20\x20\x20\x20\x20\x20\x20");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=3/24%Time=5E79D036%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,159,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x2
+SF:0Accept-Encoding\r\nLocation:\x20https://www\.facebook\.com/\r\nContent
+SF:-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-FB-Debug:\x20/ARyKNBzgHl
+SF:ttn1BrHO8oX0hD9jycv/81x7O2XdKT2OYKUB4nhE1Z9e17351\+jSTwlgGTMK5NEwYCkYo0
+SF:ytIWg==\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:17:42\x20GMT\r\nAlt
+SF:-Svc:\x20h3-27=\":443\";\x20ma=3600\r\nConnection:\x20close\r\nContent-
+SF:Length:\x200\r\n\r\n")%r(HTTPOptions,15C,"HTTP/1\.1\x20302\x20Found\r\n
+SF:Vary:\x20Accept-Encoding\r\nLocation:\x20https://185\.60\.216\.35/unsup
+SF:portedbrowser\r\nContent-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-
+SF:FB-Debug:\x20iIpEABTELUoaJ8v\+\+ZPZApRccVBO2O1fl0O9aOe91tsR/sxTYEsyjYze
+SF:pKZQCk5HC6zc8BytiStzOZGL7LvpwQ==\r\nDate:\x20Tue,\x2024\x20Mar\x202020\
+SF:x2009:17:42\x20GMT\r\nAlt-Svc:\x20h3-27=\":443\";\x20ma=3600\r\nConnect
+SF:ion:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,17A
+SF:,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x20Accept-Encoding\
+SF:r\nLocation:\x20https://www\.facebook\.com/nice%20ports%2C/Tri%6Eity\.t
+SF:xt\.bak\r\nContent-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-FB-Deb
+SF:ug:\x20A0F/rd7Gzrvlagk1iEnzPmO9kSOfd0\+aTEnIA5mG8RnU\+ae4M4w2qyNp18H2DC
+SF:aG/luaJIUsMTOlrSDZ/yrd2g==\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:
+SF:17:42\x20GMT\r\nAlt-Svc:\x20h3-27=\":443\";\x20ma=3600\r\nConnection:\x
+SF:20close\r\nContent-Length:\x200\r\n\r\n")%r(tor-versions,C21,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x20charset=utf
+SF:-8\r\nDate:\x20Tue,\x2024\x20Mar\x202020\x2009:17:42\x20GMT\r\nConnecti
+SF:on:\x20close\r\nContent-Length:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<htm
+SF:l\x20lang=\"en\"\x20id=\"facebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<
+SF:title>Facebook\x20\|\x20Error</title>\n\x20\x20\x20\x20<meta\x20charset
+SF:=\"utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20c
+SF:ontent=\"no-cache\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-contr
+SF:ol\"\x20content=\"no-store\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"ca
+SF:che-control\"\x20content=\"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-
+SF:equiv=\"expires\"\x20content=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equ
+SF:iv=\"pragma\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\
+SF:"robots\"\x20content=\"noindex,nofollow\">\n\x20\x20\x20\x20<style>\n\x
+SF:20\x20\x20\x20\x20\x20html,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20color:\x20#141823;\n\x20\x20\x20\x20\x20\x20\x20\x20background-color
+SF::\x20#e9eaed;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Helvetic
+SF:a,\x20Lucida\x20Grande,\x20Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20
+SF:sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20te
+SF:xt-align:\x20center;\n\x20\x20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20
+SF:\x20#header\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20height:\x2030px;\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.17 seconds
