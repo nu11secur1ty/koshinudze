@@ -24,12 +24,12 @@ system("perl modules/scan.pl");
 	exit 0;
 }
 if ($m0dulEs == 2){
-system("perl modules/scan.pl");
+system("perl modules/attack.pl");
 }else{
         exit 0;
 }
 if ($m0dulEs == 3){
-system("perl modules/scan.pl");
+system("perl modules/sniff.pl");
 }else{
         exit 0;
 }
