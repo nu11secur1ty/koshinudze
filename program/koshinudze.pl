@@ -14,7 +14,7 @@ print color('green');
 	print "[1]scan\n";
 	print "[2]attack\n";
 	print "[3]sniff\n";
-	print "For EXIR press Ctrl + C\n";
+	print "For EXIT press Ctrl + C\n";
 print color('reset');
 
 my $m0dulEs = <STDIN>;
