@@ -3,11 +3,11 @@ use warnings;
 use strict;
 use diagnostics;
 
-my @m0dules = ([my $m1 = `ping 8.8.8.8 -c 3`, 
+my @attack_m0de = ([my $m1 = `ping 8.8.8.8 -c 3`, 
 		my $m2, 
 		my $m3, 
 		my $m4, 
 		my $m5]
 );
-print "$m0dules[0][0]\n";
+print "$attack_m0de[0][0]\n";
 
