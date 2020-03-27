@@ -14,6 +14,8 @@ print color('green');
 	print "[1]scan\n";
 	print "[2]attack\n";
 	print "[3]sniff\n";
+print color('reset');
+print color('yellow');
 	print "For EXIT press Ctrl + C\n";
 print color('reset');
 
