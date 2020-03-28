@@ -1,5 +1,7 @@
 # koshinudze ... Working mode
 
+**koshinudze** is a `Perl framework program`, for penetration testing.
+
 ![](https://github.com/nu11secur1ty/koshinudze/blob/master/logo/koshinudze.jpg)
 
 koshinudze is a nmap vulnerability ports, services scanner and attacker software.
