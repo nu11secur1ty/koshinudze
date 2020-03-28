@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Author @nu11secur1ty
+# by @nu11secur1ty > Penetration testing engineer
 use warnings;
 use strict;
 use diagnostics;
