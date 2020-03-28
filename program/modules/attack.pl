@@ -3,7 +3,7 @@ use warnings;
 use strict;
 use diagnostics;
 
-my @attack_m0de = ([my $m1 = `ping 8.8.8.8 -c 3`, 
+my @attack_m0de = ([my $m1 = `ping 127.0.0.1 -c 3`, 
 		my $m2, 
 		my $m3, 
 		my $m4, 
