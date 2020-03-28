@@ -25,7 +25,7 @@ koshinudze is a nmap vulnerability ports, services scanner and attacker software
 ```bash
 git clone https://github.com/nu11secur1ty/koshinudze.git
 ```
-- - navigate to the directory
+- - navigate to the ***program*** directory
 ```bash
 cd program
 ```
