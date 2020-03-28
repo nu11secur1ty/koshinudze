@@ -46,7 +46,7 @@ print color('red');
 	print "$koshinudze_[3][0]\n";
 	print color('reset');
 # Save
-my $filename = 'koshinudze.log';
+my $filename = 'koshinudze_scan.log';
 open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
 	print $fh "$m0de1\n$m0de2\n$m0de3\n$m0de4\n$m0de5\n$m0de6";
 	close $fh;

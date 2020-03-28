@@ -12,7 +12,7 @@ print color('reset');
 
 print color('green');
 	print "[1]scan\n";
-	print "[2]attack\n";
+	print "[2]traversal\n";
 	print "[3]sniff\n";
 print color('reset');
 print color('yellow');
@@ -25,7 +25,7 @@ if ($m0dulEs == 1){
 system("perl modules/scan.pl");
 }
 if ($m0dulEs == 2){
-system("perl modules/attack.pl");
+system("perl modules/traversal.pl");
 }
 if ($m0dulEs == 3){
 system("perl modules/sniff.pl");
