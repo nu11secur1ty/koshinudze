@@ -1070,3 +1070,6 @@ SF:lose\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20Reques
 SF:t</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></c
 SF:enter>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n");
 ```
+# DEF CON 16 - Fyodor: Nmap: Scanning the Internet
+
+[https://www.youtube.com/watch?v=jgGPI1kHXFs]
