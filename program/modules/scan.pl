@@ -7,8 +7,8 @@ use Term::ANSIColor;
 # use 5.010;
 
 print "Give the target host or IP, for example: example.com or 0.0.0.0\n";
-my $target_ = <STDIN>;
 
+chomp (my $target_ = <STDIN>);
 our @koshinudze_ = (
 	[ my $m0de1 = `nmap -A $target_`, my $m0de2 = `nmap -p 22 $target_` ],
 	[ my $m0de3 = `nmap -p 1-100 $target_`, my $m0de4 = `nmap --script=http-title $target_` ],
