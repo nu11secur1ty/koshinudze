@@ -44,8 +44,6 @@ print color('yellow');
 print "Scan with a set of scripts\n";
 print color('red');
 	print "$koshinudze_[3][0]\n";
-		print "-----------------------------------------------\n";
-	print "$koshinudze_[3][1]\n";
 	print color('reset');
 # Save
 my $filename = 'koshinudze_scan.log';
