@@ -13,7 +13,7 @@ our @koshinudze_ = (
 	[ my $m0de1 = `nmap -A $target_`, my $m0de2 = `nmap -p 22 $target_` ],
 	[ my $m0de3 = `nmap -p 1-100 $target_`, my $m0de4 = `nmap --script=http-title $target_` ],
 	[ my $m0de5 = `nmap -sU -A -PN -n -pU:19,53,123,161 -script=ntp-monlist,dns-recursion,snmp-sysdescr $target_` ],
-	[ my $m0de6 = `nmap -sV --script=smb* $target_`,  my $m0de7 = `nmap -sC -sV -oA $target_` ]
+	[ my $m0de6 = `nmap -sV --script=smb* $target_`, my $m0de7 = `nmap -sC -sV -oA $target_` ],
 );
 
 print "Your result\n";
