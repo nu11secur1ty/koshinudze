@@ -53,6 +53,7 @@ print color('red');
 print "DNS records\n";
 print color('orange');
 	print "$koshinudze_[4][0]\n";
+	print color('reset');
 
 # Save
 my $filename = 'koshinudze_scan.log';
