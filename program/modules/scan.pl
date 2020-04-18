@@ -56,7 +56,7 @@ print color('magenta');
 	print "--------------------------------------------------------\n";
 	print color('reset');
 print "Traceroute\n";
-	print color('on_bright_yellow');
+	print color('bright_yellow');
 	print "$koshinudze_[4][1]\n";
 	print color('reset');
 	
