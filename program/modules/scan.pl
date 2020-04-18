@@ -67,7 +67,6 @@ print "Who\n";
 	print color('reset');
 	
 
-
 # Save
 my $filename = 'koshinudze_scan.log';
 open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
@@ -75,3 +74,5 @@ open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 	close $fh;
 		print "done\n";
 	print "finish the scanning\n";
+		# Clean 
+		my $clean = `rm -rf *$target_*`;
