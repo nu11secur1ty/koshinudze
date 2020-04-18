@@ -77,4 +77,4 @@ open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 		# Clean 
 			sleep 3;
 		my $clean = `rm -rf *$target_*`;
-		print "$clean\n";
+		system($clean);
