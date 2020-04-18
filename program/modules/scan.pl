@@ -60,7 +60,7 @@ print "Traceroute\n";
 	print "$koshinudze_[4][1]\n";
 	print color('reset');
 
-print "Who"
+print "Who\n";
 	print color('cyan');
 	print "$koshinudze_[4][2]\n";
 	print "---------------------------------------------------------\n";
