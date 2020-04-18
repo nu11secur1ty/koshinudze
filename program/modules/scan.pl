@@ -51,8 +51,9 @@ print color('red');
 	
 # A fifth element of the array
 print "DNS records\n";
-print color('orange');
+print color('yellow on_magenta');
 	print "$koshinudze_[4][0]\n";
+	print "--------------------------------------------------------\n";
 	print color('reset');
 
 # Save
