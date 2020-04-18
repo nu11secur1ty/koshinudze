@@ -50,8 +50,8 @@ print color('red');
 	print color('reset');
 	
 # A fifth element of the array
-print "Scan with a set of scripts\n";
-print color('red');
+print "DNS records\n";
+print color('orange');
 	print "$koshinudze_[4][0]\n";
 
 # Save
