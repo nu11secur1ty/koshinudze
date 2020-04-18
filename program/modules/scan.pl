@@ -14,7 +14,7 @@ our @koshinudze_ = (
 	[ my $m0de3 = `nmap -p 1-100 $target_`, my $m0de4 = `nmap --script=http-title $target_` ],
 	[ my $m0de5 = `nmap -sU -A -PN -n -pU:19,53,123,161 -script=ntp-monlist,dns-recursion,snmp-sysdescr $target_` ],
 	[ my $m0de6 = `nmap -sV --script=smb* $target_`, my $m0de7 = `nmap -sC -sV -oA $target_` ],
-	[ my $m0de8 = `dig $target_` ]
+	[ my $m0de8 = `dig $target_`, my $m0de9 = `traceroute $target_` ]
 );
 
 print "Your result\n";
@@ -55,12 +55,17 @@ print color('magenta');
 	print "$koshinudze_[4][0]\n";
 	print "--------------------------------------------------------\n";
 	print color('reset');
+print "Traceroute\n";
+	print color('on_bright_yellow');
+	print "$koshinudze_[4][1]\n";
+	print color('reset');
+	
 
 # Save
 my $filename = 'koshinudze_scan.log';
 open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
 	print $fh "$m0de1\n$m0de2\n$m0de3\n$m0de4\n$m0de5\n$m0de6\n$m0de7\n
-		  $m0de8\n";
+		  $m0de8\n$m0de9\n";
 	close $fh;
 		print "done\n";
 	print "finish the scanning\n";
