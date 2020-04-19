@@ -55,6 +55,7 @@ Usage
     
     CMSmap tool v1.0 - Simple CMS Scanner
     Author: Mike Manzotti
+    Automation: Ventsislav Varbanovski @nu11secur1ty
     
     Scan:
       target                target URL (e.g. 'https://example.com:8080/')
