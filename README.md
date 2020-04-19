@@ -54,7 +54,7 @@ perl koshinudze.pl
 
 ![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/2.png)
 
-# Output example:
+# Output example of scan m0dule:
 ```log
 Host is up (0.045s latency).
 Other addresses for xxx.xx (not scanned): 2606:4700:3033::681f:5fde 2606:4700:3037::681f:5ede
