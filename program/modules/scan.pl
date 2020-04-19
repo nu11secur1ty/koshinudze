@@ -73,9 +73,7 @@ print "Detect: CMS, Webserver, OS...\n";
 	print "$koshinudze_[5][0]\n";
 	print "---------------------------------------------------------\n";
 print "Host info structure\n";
-	print color('cyan');
 	print "$koshinudze_[5][1]\n";
-	print color('reset');
 
 # Save
 my $filename = 'koshinudze_scan.log';
