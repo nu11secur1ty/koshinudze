@@ -39,7 +39,17 @@ system("perl modules/attack.pl");
 }
 if ($m0dulEs == 5){
 system("perl modules/cmsorder.pl");
-}else{
-	exit 0;
 }
+
+########################################
+print color('yellow');
+print "Give options for CMS_nu11secur1ty for example: -h host or\n";
+print "EXAMPLE: http://example.com/\n";
+print "With output file: http://example.com/ > cms_nu11secur1ty.log\n";
+	chomp (my $CMS_nu11secur1ty = <STDIN>);
+if ($m0dulEs == 0){
+system("perl CMSmap_nu11secur1ty/cmsmap.py $CMS_nu11secur1ty");
+}
+	print color('reset');
+	exit 0;
 
