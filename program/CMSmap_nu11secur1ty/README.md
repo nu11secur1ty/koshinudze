@@ -18,7 +18,12 @@ Installation
 =====
 You can download the latest version of CMSmap by cloning the GitHub repository:
 
-     git clone https://github.com/Dionach/CMSmap
+     git clone https://github.com/nu11secur1ty/koshinudze
+     
+- - - go to:
+```bash
+cd koshinudze/CMSmap_nu11secur1ty
+```
 
 Then you need to configure the `edbtype` and `edbpath` settings in the `cmsmap.conf`. Use `GIT` if you have a local Git repository of Exploit-db :
 
@@ -50,6 +55,7 @@ Usage
     
     CMSmap tool v1.0 - Simple CMS Scanner
     Author: Mike Manzotti
+    Automation: Ventsislav Varbanovski @nu11secur1ty
     
     Scan:
       target                target URL (e.g. 'https://example.com:8080/')
