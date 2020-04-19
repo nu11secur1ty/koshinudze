@@ -15,6 +15,7 @@ print color('green');
 	print "[2]traversal\n";
 	print "[3]sniff\n";
 	print "[4]attack\n";
+	print "[5]CMS,OS other\n";
 print color('reset');
 print color('yellow');
 	print "For EXIT press Ctrl + C\n";
@@ -34,5 +35,7 @@ system("perl modules/sniff.pl");
 if ($m0dulEs == 4){
 system("perl modules/attack.pl");
 }
-
+if ($m0dulEs == 5){
+system("perl modules/cmsother.pl");
+}
 	exit 0;
