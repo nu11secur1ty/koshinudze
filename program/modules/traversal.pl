@@ -17,7 +17,7 @@ print "$attack_m0de[2][0]\n";
 
 # Save
 my $filename = 'koshinudze_traversal.log';
-open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
+open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
         print $fh "$m1\n$m2\n$m3";
         close $fh;
                 print "done\n";
