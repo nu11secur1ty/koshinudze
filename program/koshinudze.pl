@@ -38,7 +38,7 @@ if ($m0dulEs == 4){
 system("perl modules/attack.pl");
 }
 if ($m0dulEs == 5){
-system("perl modules/cmsother.pl");
+system("perl modules/cmsorder.pl");
 }
 print color('yellow');
 print "Give options for CMS_nu11secur1ty for example: -h host or\n";
