@@ -1,4 +1,4 @@
-# koshinudze ... Working mode
+# koshinudze 0.1 ... Working mode
 
 **koshinudze** is a `Perl framework program` f0r Information Gathering, and advanced penetration testing by `@nu11secur1ty`.
 
