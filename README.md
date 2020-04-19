@@ -30,7 +30,7 @@ koshinudze is a nmap vulnerability ports, services scanner and attacker software
 
 - - - - - CMS_nu11secur1ty
 
-![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/CMS_nu11secur1ty.png)
+![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/CMS_nu11secur1ty_r.gif)
 
 ---------------------------------------------------------------
 
