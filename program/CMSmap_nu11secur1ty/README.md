@@ -22,7 +22,7 @@ You can download the latest version of CMSmap by cloning the GitHub repository:
      
 - - - go to:
 ```bash
-cd koshinudze/CMSmap_nu11secur1ty
+cd koshinudze/program/CMSmap_nu11secur1ty
 ```
 
 Then you need to configure the `edbtype` and `edbpath` settings in the `cmsmap.conf`. Use `GIT` if you have a local Git repository of Exploit-db :
