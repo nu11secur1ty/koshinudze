@@ -41,8 +41,12 @@ if ($m0dulEs == 5){
 system("perl modules/cmsorder.pl");
 }
 if ($m0dulEs == 0){
+print color('yellow');
 print "Give options for CMS_nu11secur1ty for example: -h host or EXAMPLE: http://example.com/\n";
 print "With output file: http://example.com/ > cms_nu11secur1ty.log\n";
 	my $option_cms = <STDIN>;
 system("perl CMSmap_nu11secur1ty/cmsmap.py $option_cms");
-}
+	print color('reset');
+}else{
+	exit 0;
+	}
