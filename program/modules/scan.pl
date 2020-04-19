@@ -7,6 +7,8 @@ use Term::ANSIColor;
 # use 5.010;
 
 print "Give the target host or IP, for example: example.com or 0.0.0.0\n";
+print "Give the target host for CMS and other things, for example: http://example.com/\n";
+
 
 chomp (my $target_ = <STDIN>);
 our @koshinudze_ = (
