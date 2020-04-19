@@ -68,7 +68,7 @@ print "Who\n";
 	print "$koshinudze_[4][3]\n";
 	print color('reset');
 	
-print "Detect: CMS, Weserver, OS...\n";
+print "Detect: CMS, Webserver, OS...\n";
 	print color('cyan');
 	print "$koshinudze_[5][0]\n";
 	print "---------------------------------------------------------\n";
