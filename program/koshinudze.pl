@@ -40,7 +40,9 @@ system("perl modules/attack.pl");
 if ($m0dulEs == 5){
 system("perl modules/cmsother.pl");
 }
+print "Give options for CMS_nu11secur1ty\n";
+	chomp (my $CMS_nu11secur1ty = <STDIN>);
 if ($m0dulEs == 0){
-system("perl CMSmap_nu11secur1ty/cmsmap.py");
+system("perl CMSmap_nu11secur1ty/cmsmap.py $CMS_nu11secur1ty");
 }
 	exit 0;
