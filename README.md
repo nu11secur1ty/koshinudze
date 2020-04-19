@@ -19,8 +19,15 @@ koshinudze is a nmap vulnerability ports, services scanner and attacker software
 - - - scan `OK`
 - - - sniff `?`
 - - - attack `?`
+- - - cmsother `OK`
 
 ---------------------------------------------------------------
+- CMS-detect screen:
+
+![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/CMS-detect.png)
+
+---------------------------------------------------------------
+
 - - - Usage
 
 - - get the program
