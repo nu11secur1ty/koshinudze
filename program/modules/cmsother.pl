@@ -18,4 +18,6 @@ open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
         close $fh;
                 print "done\n";
         print "finish the scanning\n";
-
+		sleep 3;
+		my $clean = `rm -rf *$target_*`;
+		system($clean);
