@@ -18,7 +18,7 @@
 - - - scan `OK`
 - - - sniff `?`
 - - - attack `?`
-- - - cmsother `OK`
+- - - cmsorder_others `OK`
 - - - CMSmap_nu11secur1ty `OK`
 
 ---------------------------------------------------------------
