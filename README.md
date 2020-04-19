@@ -22,9 +22,13 @@ koshinudze is a nmap vulnerability ports, services scanner and attacker software
 - - - cmsother `OK`
 
 ---------------------------------------------------------------
-- CMS-detect screen:
+- - - - - CMS-detect screen:
 
 ![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/CMS-detect.png)
+
+- - - - - CMS_nu11secur1ty
+
+![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/CMS_nu11secur1ty.png)
 
 ---------------------------------------------------------------
 
