@@ -18,7 +18,7 @@ print "---------------------------------\n";
 print color('reset');
 
 # Save
-my $filename = 'koshinudze_cmsother.log';
+my $filename = 'koshinudze_cmsorder.log';
 open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
         print $fh "$m1\n";
         close $fh;
