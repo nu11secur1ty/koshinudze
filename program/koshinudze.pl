@@ -16,7 +16,7 @@ print color('green');
 	print "[3] sniff\n";
 	print "[4] attack\n";
 	print "[5] CMS-Detect,OS other\n";
-	print "[5-1] CMSmap_nu11secur1ty\n\n\n";
+	print "[0] CMSmap_nu11secur1ty\n\n\n";
 	
 print color('reset');
 print color('yellow');
@@ -40,7 +40,7 @@ system("perl modules/attack.pl");
 if ($m0dulEs == 5){
 system("perl modules/cmsother.pl");
 }
-if ($m0dulEs == 5-1){
+if ($m0dulEs == 0){
 system("perl CMSmap_nu11secur1ty/cmsmap.py");
 }
 	exit 0;
