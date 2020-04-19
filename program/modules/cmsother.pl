@@ -8,7 +8,7 @@ print "Give URL target for example: http://localhost:8080/\n";
 
 chomp (my $target_ = <STDIN>);
 my @attack_m0de = (
-		[my $m1 = `wad -u $target_`], 
+		[ my $m1 = `wad -u $target_` ]
 );
 
 print color('green');
