@@ -1,6 +1,6 @@
 # koshinudze by `@nu11secur1ty`... Working mode
 
-**koshinudze** is a `Perl framework program` f0r Information Gathering, and advanced and penetration testing.
+**koshinudze** is a `Perl framework program` f0r Information Gathering, and advanced penetration testing.
 
 ![](https://github.com/nu11secur1ty/koshinudze/blob/master/logo/koshinudze.jpg)
 
