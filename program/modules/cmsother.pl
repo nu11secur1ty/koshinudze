@@ -11,10 +11,10 @@ my @attack_m0de = (
 		[my $m1 = `wad -u $target_`], 
 );
 
-print color(green);
+print color('green');
 print "$attack_m0de[0][0]\n";
 print "---------------------------------\n";
-print color(reset);
+print color('reset');
 
 # Save
 my $filename = 'koshinudze_cmsother.log';
