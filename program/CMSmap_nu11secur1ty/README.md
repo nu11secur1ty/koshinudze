@@ -9,11 +9,6 @@ Please note that this project is an early state. As such, you might find bugs, f
 Use it at your own risk!
 
 
-Preview
-=====
-* https://asciinema.org/a/MELa2nUcrtATqnDLnc0ig8rcT
-
-
 Installation
 =====
 You can download the latest version of CMSmap by cloning the GitHub repository:
