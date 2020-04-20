@@ -39,9 +39,13 @@
 ```bash
 git clone https://github.com/nu11secur1ty/koshinudze.git
 ```
-- - navigate to the ***program*** directory
+- - - Navigate to the ***program*** directory
 ```bash
 cd program
+```
+- - - Run the program:
+```bash
+perl koshinudze.pl
 ```
 [![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/1.png)](https://www.youtube.com/watch?v=kMUG6LXErHs&feature=emb_title)
 
