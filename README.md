@@ -1,4 +1,4 @@
-# koshinudze 0.1 ... Working mode
+# koshinudze 0.1 coden@me `SSWEPT`... Working mode
 
 **koshinudze** is a professional`Perl framework software` f0r Information Gathering, CMS systems vulnerability checking and advanced penetration testing by `@nu11secur1ty`.
 
