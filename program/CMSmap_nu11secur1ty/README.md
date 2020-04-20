@@ -95,11 +95,6 @@ Usage
       cmsmap.py -k hashes.txt -w passwords.txt
 
 
-Contribution guidelines
-=====
-If you want to contribute to CMSmap, be sure to review the [contribution
-guidelines](.github/CONTRIBUTING.md).
-
 
 Disclaimer
 =====
