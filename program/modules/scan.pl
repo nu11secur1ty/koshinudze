@@ -76,8 +76,8 @@ print "Host info structure\n";
 	print "----------------------------------------------------------\n";
 print "Advanced with Nikto\n";
 	print color('magenta');
+	print "Nikto is working, please wait for the deep scanning...\n";
 	print "$koshinudze_[5][1]\n";
-		print "Nikto is working, please wait for the deep scanning...\n";
 	print color('reset');
 
 # Save
