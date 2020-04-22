@@ -22,7 +22,7 @@ print "                                                                 ;
  j#t        G#t  ,WK,      f#t  f#t    E#t E#t      .E##E E#K,   E#K##i    .f####Gfffffffffff;        .D#; 
   ,;         t   EG.        ii   ii    E#t ..         G#E EL     E##D.    .fLLLLLLLLLLLLLLLLLi          tt 
                  ,                     ,;.             fE :      E#t                                       
-                                                        ,        L:\n";
+                                                        ,        L: by @nu11secur1ty v-∞\n";
 							print color('reset');
 
 print color('red');
