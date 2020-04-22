@@ -26,8 +26,8 @@ print color('reset');
 my $m0dulEs = <STDIN>;
 
 if ($m0dulEs == 1){
-print "Please wait koshinudze is working for you...\n";
 system("perl modules/scan.pl");
+print "Please wait koshinudze is working for you...\n";
 }
 if ($m0dulEs == 2){
 system("perl modules/traversal.pl");
