@@ -7,6 +7,9 @@ use Term::ANSIColor;
 # use 5.010;
 
 print "Give the target host or IP, for example: example.com or 0.0.0.0\n";
+print color('orange');
+print "NOTE: Please wait after your choice, koshinudze is working for you...\n";
+print color('reset');
 
 chomp (my $target_ = <STDIN>);
 our @koshinudze_ = (
