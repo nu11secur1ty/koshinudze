@@ -51,18 +51,31 @@ system("perl modules/scan.pl");
 }else{
 	exit 0;
 	}
+	
 if ($m0dulEs == 2){
 system("perl modules/traversal.pl");
-}
+}else{
+	exit 0;
+	}
+	
 if ($m0dulEs == 3){
 system("perl modules/sniff.pl");
-}
+}else{
+	exit 0;
+	}
+	
 if ($m0dulEs == 4){
 system("perl modules/attack.pl");
-}
+}else{
+	exit 0;
+	}
+	
 if ($m0dulEs == 5){
 system("perl modules/cmsorder.pl");
-}
+}else{
+	exit 0;
+	}
+	
 if ($m0dulEs == 0){
 print color('yellow');
 print "Give options for CMS_nu11secur1ty for example: -h host or EXAMPLE: http://example.com/\n";
