@@ -90,5 +90,7 @@ open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 	print "finish the scanning\n";
 		# Clean 
 			sleep 3;
-		my $clean = `rm -rf *$target_*`;
+			print "Please type your target again to clean your scanning...\n";
+			my $target_clean = <>;
+		my $clean = `rm -rf *$target_clean*`;
 		system($clean);
