@@ -1,6 +1,7 @@
 # koshinudze 0.1 coden@me `SSWEPT`... Working mode
 
- ```                                                                ;                                         
+```
+                                                                 ;                                         
              :                                                   ED.                                       
  G:         t#,           .                L.             :      E#Wi                                    ,;
  E#,    :  ;##W.         ;W.    .      t   EW:        ,ft Ef     E###G.                                f#i 
@@ -15,7 +16,10 @@
  j#t        G#t  ,WK,      f#t  f#t    E#t E#t      .E##E E#K,   E#K##i    .f####Gfffffffffff;        .D#; 
   ,;         t   EG.        ii   ii    E#t ..         G#E EL     E##D.    .fLLLLLLLLLLLLLLLLLi          tt 
                  ,                     ,;.             fE :      E#t                                       
-                                                        ,        L:  
+                                                        ,        L:
+by nu11secur1ty v-∞
+
+
 ```
 
 
