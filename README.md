@@ -1,4 +1,4 @@
-# koshinudze 0.1 coden@me `SSWEPT`... Working mode
+# koshinudze 0.1 coden@me `SSWEPT`f0r Kali Linux 2020.x... Working mode
 
 ![](https://github.com/nu11secur1ty/koshinudze/blob/master/shots/koshinudze.png)
 - - - logo...
