@@ -48,7 +48,9 @@ my $m0dulEs = <STDIN>;
 
 if ($m0dulEs == 1){
 system("perl modules/scan.pl");
-}
+}else{
+	exit 0;
+	}
 if ($m0dulEs == 2){
 system("perl modules/traversal.pl");
 }
