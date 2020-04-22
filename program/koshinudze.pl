@@ -25,7 +25,7 @@ print "                                                                 ;
                                                         ,        L:\n";
 							print color('reset');
 							print color('red');
-							print "by @nu11secur1ty v-∞\n";
+							print "by nu11secur1ty v-∞\n";
 							print color('reset');
 print color('red');
 print "Choice module\n";
