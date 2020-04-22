@@ -6,14 +6,7 @@ use warnings;
 use diagnostics;
 use Term::ANSIColor;
 
-#print "[..                                                       [..                   
-#[..                      [..      [.                      [..                   
-#[..  [..   [..     [.... [..        [.. [..  [..  [..     [..[.... [..   [..    
-#[.. [..  [..  [.. [..    [. [.   [.. [..  [..[..  [.. [.. [..     [..  [.   [.. 
-#[.[..   [..    [..  [... [..  [..[.. [..  [..[..  [..[.   [..   [..   [..... [..
-#[.. [..  [..  [..     [..[.   [..[.. [..  [..[..  [..[.   [..  [..    [.        
-#[..  [..   [..    [.. [..[..  [..[..[...  [..  [..[.. [.. [..[........  [....\n\n\n";
-
+print color('blue');
 print "                                                                 ;                                         
              :                                                   ED.                                       
  G:         t#,           .                L.             :      E#Wi                                    ,;
@@ -29,8 +22,8 @@ print "                                                                 ;
  j#t        G#t  ,WK,      f#t  f#t    E#t E#t      .E##E E#K,   E#K##i    .f####Gfffffffffff;        .D#; 
   ,;         t   EG.        ii   ii    E#t ..         G#E EL     E##D.    .fLLLLLLLLLLLLLLLLLi          tt 
                  ,                     ,;.             fE :      E#t                                       
-                                                        ,        L:\n";  
-
+                                                        ,        L:\n";
+							print color('reset');
 
 print color('red');
 print "Choice module\n";
