@@ -84,7 +84,7 @@ print "Advanced with Nikto\n";
 my $filename = 'koshinudze_scan.log';
 open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 	print $fh "$m0de1\n$m0de2\n$m0de3\n$m0de4\n$m0de5\n$m0de6\n$m0de7\n$m0de8\n$m0de9\n$m0de10\n
-	$m0de11\n$m0de12";
+	$m0de11\n$m0de12\n$m0de13\n";
 	close $fh;
 		print "done\n";
 	print "finish the scanning\n";
