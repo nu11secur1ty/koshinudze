@@ -96,3 +96,6 @@ open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 		system($clean);
 # Bugs
 # Ruby: https://github.com/contentful/contentful.rb/issues/217
+# - /usr/lib/ruby/vendor_ruby/target.rb:188: warning: URI.escape is obsolete
+# - /usr/lib/ruby/vendor_ruby/target.rb:188: warning: URI.escape is obsolete
+
