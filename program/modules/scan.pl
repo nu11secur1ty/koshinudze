@@ -94,3 +94,5 @@ open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 			#my $target_clean = <>;
 		my $clean = `rm -rf *$target_.*`;
 		system($clean);
+# Bugs
+# Ruby: https://github.com/contentful/contentful.rb/issues/217
